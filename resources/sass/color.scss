@@ -1,0 +1,47 @@
+@import './mixins';
+
+.bg-primary {
+  background-color: #fbceb1 !important;
+}
+
+.bg-success,
+.btn-success {
+  background-color: #659952 !important;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: $secondaryColor !important;
+}
+
+.btn-secondary {
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: $secondaryColorH !important;
+  }
+}
+
+.btn-blue {
+  background-color: #789eff !important;
+  color: #fff !important;
+  &:hover {
+    background-color: #6183dc !important;
+    color: #fff !important;
+  }
+}
+
+.btn-success {
+  color: #fff !important;
+  &:hover {
+    background-color: #477d33 !important;
+    color: #fff !important;
+  }
+}
+
+.btn-danger {
+  background-color: #c75e5e !important;
+  &:hover {
+    background-color: #a93f3f !important;
+  }
+}
