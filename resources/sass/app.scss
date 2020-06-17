@@ -1,15 +1,25 @@
 // Your custom styles
 @import './mixins';
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 body {
   font-family: $themefont;
+  color:#000;
+}
+
+.font2{
+  font-family: $font2 !important;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.font-weight-bolder{
+font-weight:900 !important;
 }
 
 h2 {
   font-family: $themefont;
-  color: #000;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -18,7 +28,6 @@ h2 {
 
 h4 {
   font-family: $themefont;
-  color: #000;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -36,6 +45,126 @@ h5 {
 /* Header Start */
 @import './header';
 /* Header end */
+
+
+
+/*Home start*/
+.blog-box, .banner-top, .secondsection{
+  h1{
+    font-size: 66px;
+    font-weight: bold;
+  }
+
+  h2{
+    font-size: 46px;
+    font-weight: 500;
+  }
+
+  h3{
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
+
+
+.banner-top{
+  background-size: cover;
+  background-position: center center;
+  padding: 300px 0;
+  position: relative;
+  color:#fff;
+
+  &::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:100%;
+    left:0;
+    top:0;
+    background: linear-gradient(#430c04,150px,transparent);
+    background-color: #430c04;
+    opacity: .2;
+  }
+
+  >*{
+    position: relative;
+  }
+
+  h1{
+    font-weight: 400;
+    margin-bottom: 70px;
+  }
+
+
+  h4{
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+  }
+
+  .block-content{
+    max-width: 608px;
+    margin-left: auto;
+  }
+}
+
+.secondsection{
+  background-color: #f6ebea;
+  padding: 90px 0;
+  font-size: 17px;
+}
+
+.image-cover{
+object-fit: cover;
+}
+
+.products{
+  text-align: center;
+  .image-cover{
+    max-height: 400px;
+  }
+
+  .product-title{
+    font-family: $font2;
+    font-size: 22px;
+    display: block;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .product-price{
+    font-family: $font2;
+    font-size: 18px;
+  }
+}
+
+
+.btn-pricing {
+  font-family: $font2;
+  color: #fff;
+  background-color: #430c04;
+  border-color: #430c04;
+  padding: 20px 25px;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  &:hover{
+    color:#fff;
+    opacity: 0.8;
+  }
+}
+
+.blog-box{
+  background-color: #f6ebea;
+}
+/*Home End*/
 
 /* wrapper start */
 .main-wrapper {
@@ -99,7 +228,7 @@ h5 {
 
     &::before {
       content: '';
-    //   background-image: url('../img/apricotlogo.png');
+      background-image: url('../img/apricotlogo.png');
       background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;
@@ -159,3 +288,14 @@ h5 {
   }
 }
 /* wrapper end */
+
+
+
+/*Footer start */
+.main-footer{
+  background-color: #000;
+  .logo{
+    max-width: 170px;
+  }
+}
+/* Footer end */

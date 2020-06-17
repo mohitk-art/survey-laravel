@@ -1,12 +1,22 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;
-
-0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);body {
+body {
   font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
+.font2 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.font-weight-bolder {
+  font-weight: 900 !important;
 }
 
 h2 {
   font-family: "Roboto", sans-serif;
-  color: #000;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -15,7 +25,6 @@ h2 {
 
 h4 {
   font-family: "Roboto", sans-serif;
-  color: #000;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -33,19 +42,12 @@ h5 {
 /* Header Start */
 
 .main-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99999;
-}
-
-.main-header.sticky {
-  background-color: #fff !important;
-}
-
-.main-header.sticky .nav-item .nav-link {
-  color: #000 !important;
+  box-shadow: none;
 }
 
 .main-header .navbar-brand img {
@@ -54,10 +56,135 @@ h5 {
 
 .main-header .nav-item .nav-link {
   font-weight: 500;
-  color: #fff !important;
 }
 
 /* Header end */
+
+/*Home start*/
+
+.blog-box h1,
+.banner-top h1,
+.secondsection h1 {
+  font-size: 66px;
+  font-weight: bold;
+}
+
+.blog-box h2,
+.banner-top h2,
+.secondsection h2 {
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.blog-box h3,
+.banner-top h3,
+.secondsection h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.blog-box h4,
+.banner-top h4,
+.secondsection h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.banner-top {
+  background-size: cover;
+  background-position: center center;
+  padding: 300px 0;
+  position: relative;
+  color: #fff;
+}
+
+.banner-top::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(#430c04, 150px, transparent);
+  background-color: #430c04;
+  opacity: 0.2;
+}
+
+.banner-top > * {
+  position: relative;
+}
+
+.banner-top h1 {
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.banner-top h4 {
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+}
+
+.banner-top .block-content {
+  max-width: 608px;
+  margin-left: auto;
+}
+
+.secondsection {
+  background-color: #f6ebea;
+  padding: 90px 0;
+  font-size: 17px;
+}
+
+.image-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products {
+  text-align: center;
+}
+
+.products .image-cover {
+  max-height: 400px;
+}
+
+.products .product-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  display: block;
+  color: #000;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.products .product-price {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.btn-pricing {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #430c04;
+  border-color: #430c04;
+  padding: 20px 25px;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.btn-pricing:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.blog-box {
+  background-color: #f6ebea;
+}
+
+/*Home End*/
 
 /* wrapper start */
 
@@ -124,6 +251,7 @@ h5 {
 
 .main-wrapper .wrapper::before {
   content: "";
+  background-image: url(/images/apricotlogo.png?051e81e4239021b65b6ce9234cb2df60);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -182,4 +310,16 @@ h5 {
 }
 
 /* wrapper end */
+
+/*Footer start */
+
+.main-footer {
+  background-color: #000;
+}
+
+.main-footer .logo {
+  max-width: 170px;
+}
+
+/* Footer end */
 
