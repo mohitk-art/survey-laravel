@@ -189,6 +189,7 @@ h5 {
 /* wrapper start */
 
 .main-wrapper {
+  background-color: #f6ebea !important;
   min-height: 100vh;
   padding: 30px;
   display: flex;
@@ -208,7 +209,7 @@ h5 {
 }
 
 .main-wrapper .progress .progress-bar {
-  background-color: #c39577;
+  background-color: #f6c25d;
 }
 
 .main-wrapper .wrapper {
@@ -265,6 +266,7 @@ h5 {
 .main-wrapper .wrapper .box {
   padding: 30px;
   border-radius: 52px;
+  background-color: #f6ebea !important;
 }
 
 .main-wrapper .wrapper .box .form-wrapper {
@@ -281,7 +283,7 @@ h5 {
   color: #838383;
   font-style: normal;
   font-weight: bold;
-  background-color: #ffecdf;
+  background-color: #0000000f;
   border-radius: 52px;
   padding: 20px 25px;
   border: 0;

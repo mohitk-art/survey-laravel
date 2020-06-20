@@ -164,10 +164,12 @@ object-fit: cover;
 .blog-box{
   background-color: #f6ebea;
 }
+
 /*Home End*/
 
 /* wrapper start */
 .main-wrapper {
+  background-color: $bgcolor !important;
   min-height: 100vh;
   padding: 30px;
   display: flex;
@@ -185,7 +187,7 @@ object-fit: cover;
     z-index: 9999;
 
     .progress-bar {
-      background-color: #c39577;
+      background-color:#f6c25d;
     }
   }
 
@@ -242,6 +244,7 @@ object-fit: cover;
     .box {
       padding: 30px;
       border-radius: 52px;
+      background-color: $bgcolor !important;
 
       .form-wrapper {
         margin: auto;
@@ -256,7 +259,7 @@ object-fit: cover;
           color: #838383;
           font-style: normal;
           font-weight: bold;
-          background-color: #ffecdf;
+          background-color: #0000000f;
           border-radius: 52px;
           padding: 20px 25px;
           border: 0;
