@@ -1,3 +1,53 @@
+.bg-primary {
+  background-color: #fbceb1 !important;
+}
+
+.bg-success,
+.btn-success {
+  background-color: #659952 !important;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: #fdb324 !important;
+}
+
+.btn-secondary {
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #eaa51e !important;
+}
+
+.btn-blue {
+  background-color: #408fa8 !important;
+  color: #fff !important;
+}
+
+.btn-blue:hover {
+  background-color: #3c6e86 !important;
+  color: #fff !important;
+}
+
+.btn-success {
+  color: #fff !important;
+}
+
+.btn-success:hover {
+  background-color: #477d33 !important;
+  color: #fff !important;
+}
+
+.btn-danger {
+  background-color: #c75e5e !important;
+}
+
+.btn-danger:hover {
+  background-color: #a93f3f !important;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #000;
@@ -252,7 +302,7 @@ h5 {
 
 .main-wrapper .wrapper::before {
   content: "";
-  background-image: url(/images/apricotlogo.png?051e81e4239021b65b6ce9234cb2df60);
+  background-image: url(../images/apricotlogo.png);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -312,6 +362,19 @@ h5 {
 }
 
 /* wrapper end */
+
+/*Menu */
+
+.menu .nav-link {
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+.menu .nav-link:hover {
+  color: #408fa8 !important;
+}
+
+/*Menu */
 
 /*Footer start */
 

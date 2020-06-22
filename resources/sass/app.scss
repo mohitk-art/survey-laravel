@@ -1,6 +1,8 @@
 // Your custom styles
 @import './mixins';
 
+@import "./color.scss";
+
 body {
   font-family: $themefont;
   color:#000;
@@ -291,6 +293,19 @@ object-fit: cover;
   }
 }
 /* wrapper end */
+
+
+/*Menu */
+.menu{
+.nav-link{
+  color:#000 !important;
+  font-weight: 500 !important;
+  &:hover{
+    color: $blueColor !important;
+  }
+}
+}
+/*Menu */
 
 
 

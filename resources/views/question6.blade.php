@@ -4,6 +4,9 @@
       <div class="progress">
         <div class="progress-bar" role="progressbar" style="width: 90%"></div>
       </div>
+
+      <div class="w-100">
+      @include('footer.menu')
       <div class="wrapper">
         <h2 class="text-center mb-4 animated fadeInDown">Question 6</h2>
 
@@ -22,6 +25,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
     

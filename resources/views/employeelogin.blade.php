@@ -1,6 +1,8 @@
 @include('layout.wrapper.start')
     
 <div class="bg-primary main-wrapper">
+    <div class="w-100">
+  
       <div class="wrapper">
         <a class="btn1 btn-blue">Sign up</a>
         <h2 class="text-center mb-4 animated fadeInDown">Welcome</h2>
@@ -27,6 +29,7 @@
               <button type="submit" class="submit-btn btn-blue">Submit</button>
             </div>
           </form>
+        </div>
         </div>
       </div>
     </div>

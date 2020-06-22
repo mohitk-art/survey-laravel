@@ -29,30 +29,7 @@
       <h3 class="font2 mb-5">For the employer</h3>
 
 
-      <!-- Product boxes start -->
-          <div class="row products">
-            <div class="col-md-6 mb-4">
-                <img src="img/image-5-half-color.jpg" class="w-100 image-cover"/>
-                
-            <a href="" class="product-title">Cursus Amet</a>
-            <div class="product-price">
-            0.00
-            </div>
-
-            </div>
-
-            <div class="col-md-6 mb-4">
-                <img src="img/image-5-half-color.jpg" class="w-100 image-cover"/>
-                
-            <a href="" class="product-title">Vulputate Commodo Ligula</a>
-            <div class="product-price">
-            0.00
-            </div>
-
-            </div>
-
-      </div>
-      <!-- Product boxes start -->
+      
 
 
       <!-- Pricing row start -->

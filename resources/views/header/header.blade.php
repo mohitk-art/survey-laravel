@@ -10,16 +10,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="company_login">Manage</a>
+                        <a class="nav-link" href="companylogin">Manage</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="employee_login">Employee log in</a>
+                        <a class="nav-link" href="employeelogin">Employee log in</a>
                     </li>
 
                 </ul>

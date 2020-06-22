@@ -1,6 +1,7 @@
 @include('layout.wrapper.start')
     
 <div class="bg-primary main-wrapper">
+<div class="w-100">
       <div class="wrapper">
         <h2 class="text-center mb-4 animated fadeInDown">All done!</h2>
 
@@ -17,6 +18,8 @@
             </div>
           </div>
         </div>
+      </div>
+  
       </div>
     </div>
 

@@ -11,6 +11,8 @@
           aria-valuemax="100"
         ></div>
       </div>
+      <div class="w-100">
+      @include('footer.menu')
       <div class="wrapper">
         <h2 class="text-center mb-4 animated fadeInDown">Question 1</h2>
 
@@ -32,6 +34,8 @@
             </div>
           </div>
         </div>
+      </div>
+     
       </div>
     </div>
     

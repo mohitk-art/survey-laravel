@@ -1,6 +1,9 @@
 @include('layout.wrapper.start')
 
 <div class="bg-primary main-wrapper">
+
+<div>
+@include('footer.menu')
       <div class="wrapper">
         <h2 class="text-center mb-4 animated fadeInDown">
           Email registration
@@ -22,6 +25,7 @@
           </form>
         </div>
       </div>
+      <div>
     </div>
 
     @include('layout.wrapper.end')

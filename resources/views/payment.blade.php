@@ -1,6 +1,8 @@
 @include('layout.wrapper.start')
 
 <div class="bg-primary main-wrapper">
+     <div>
+     @include('footer.menu')
       <div class="wrapper">
         <h2 class="text-center mb-4 animated fadeInDown">Payment</h2>
         <div class="box bg-primary">
@@ -43,6 +45,11 @@
           </form>
         </div>
       </div>
+
+      
+      </div>
+
+
     </div>
 
     @include('layout.wrapper.end')
