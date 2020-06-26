@@ -8,7 +8,7 @@
     <!-- MDB icon -->
     <link rel="icon" href="img/Apricot.png" type="image/x-icon" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
 
     
     <!-- Google Fonts Roboto -->
